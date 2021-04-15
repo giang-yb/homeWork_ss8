@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 68px);
+}
+
+body{
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+}
+
+.content--left {
+    width: 50%;
+    background: url("./img/Lovepik_com-401163990-cherry-blossom-romantic-flower-falling-petals.png") no-repeat;
+    background-color: #dddddf;
+    background-size: 100% 100%;
+}
+
+.content--left .content--title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px;
+    padding: 30px 0px 0px 40px;
+}
+
+.content--left p {
+    font-style: italic;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 60px;
+    font-size: 40px;
+    padding-top: 300px;
+}
+
+.auteur{
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.auteur p{
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.auteur .avt{
+    padding-left: 80px;
+}
+
+.avt img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.content--right {
+    background-image: url("./img/dao-trong-le-wind.jpg");
+    background-size: cover;
+    background-position: center;    
+    width: 50%;
+}
+
+.content--right button{
+    margin-top: 15px;
+    margin-left: 85%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #648be4;
+    padding: 15px 25px;
+}
+
+.content--right button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer{
+    font-size: 24px;
+    padding: 11.5px;
+    background-color: #4b7bec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.footer--search a{
+    padding-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4b7bec
+}
+
+.footer--search button{
+    cursor: pointer;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: white;
+}
+
+.footer--search button:hover{
+    transform: scale(1.1);
+    transition: 0.15s;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer--logo{
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer--logo__share{
+    font-size: 20px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer--logo a {
+    padding-left: 20px;
+    font-size: 36px;
+    color: white;
+}
+
+.footer--logo a:hover{
+    transform: scale(1.19);
+    transition: 0.15s;
+    color: #f19066;
+}
+
+.footer--watchtime{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer--watchtime a{
+    padding-right: 10px;
+    font-size: 36px;
+    color: white;
+}
+
+.footer--watchtime p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
