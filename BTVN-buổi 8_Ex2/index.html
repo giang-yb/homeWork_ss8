@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content--clock">
+            <div class="content--clock__input">
+                <form action="">
+                    <input id="time" type="number" value="0">
+                </form>
+            </div>
+            <div id="time" class="content--btn">
+                <button onclick="startTime()">
+                    Start
+                </button>
+            </div>
+            <div class="content--btn">
+                <button onclick="stoP()">
+                    Stop
+                </button>
+            </div>
+            <p id="show"></p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
