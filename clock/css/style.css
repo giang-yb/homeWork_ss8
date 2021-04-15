@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clock {
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(217, 137, 199, 1) 41%, rgba(0, 212, 255, 1) 72%);
+}
+
+.clock--content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    border-radius: 15px;
+    background-color: black;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock--content p {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.clock--content h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.big {
+    font-size: 40px;
+}
