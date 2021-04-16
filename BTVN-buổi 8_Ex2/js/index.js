@@ -6,6 +6,7 @@ function startTime() {
     timer = setInterval(start, 1000);
     document.getElementById("show").innerHTML = myTime.value;
     count = myTime.value;
+    document.getElementById("btn").disabled = true;
 }
 
 function start(){
@@ -19,4 +20,10 @@ function start(){
 
 function stoP(){
     clearInterval(timer);
+    document.getElementById("show").innerHTML = "Stopped!";
+}
+
+function reSet(){
+    clearInterval(timer);
+    document.getElementById("show").innerHTML = "--";
 }

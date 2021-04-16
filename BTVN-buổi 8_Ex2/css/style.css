@@ -31,6 +31,10 @@
     color: whitesmoke;
 }
 
+.content--clock__input p{
+    padding: 30px;
+}
+
 .content--btn button{
     font-size: 12px;
     padding: 5px;
