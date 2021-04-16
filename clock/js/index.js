@@ -15,20 +15,22 @@ setInterval(() => {
 
 setInterval(() => {
     let clockDay = document.getElementById("days");
-    clockDay.innerText = new Date().getDay();
-    if(clockDay.innerText == 0){
-        clockDay.innerText = "SA";
-    }else if(clockDay.innerText == 1){
-        clockDay.innerText = "MO";
-    }else if(clockDay.innerText == 2){
-        clockDay.innerText = "TU";
-    }else if(clockDay.innerText == 3){
-        clockDay.innerText = "WE";
-    }else if(clockDay.innerText == 4){
-        clockDay.innerText = "TH";
-    }else if(clockDay.innerText == 5){
-        clockDay.innerText = "FR";
+    clockDays = new Date().getDay();
+    let day;
+    if(clockDays == 0){
+        day = "SA";
+    }else if(clockDays == 1){
+        day = "MO";
+    }else if(clockDays == 2){
+        day = "TU";
+    }else if(clockDays == 3){
+        day = "WE";
+    }else if(clockDays == 4){
+        day = "TH";
+    }else if(clockDays == 5){
+        day = "FR";
     }else{
-        clockDay.innerText = "SA";
+        day = "SA";
     }
-}, 1000);
+    clockDay.innerText = day;
+}, 1000);   
